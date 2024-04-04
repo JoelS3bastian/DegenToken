@@ -2,17 +2,12 @@
 
 DegenToken is an ERC20 token contract deployed on the Avalanche network's Fuji testnet. It is designed to be a utility token for a hypothetical automotive parts marketplace, allowing users to earn, spend, and burn tokens based on their interactions within the platform.
 ## Description
-
+I have used the mapping function, this function assigns 10 quantities to each part in my store. Its reduces one part as and whe the user inputs the corresponding part id.
 Minting: The contract owner can mint new tokens and distribute them to specific accounts.
 Redeeming: Users can redeem tokens for specific automotive parts listed in the contract's inventory. To redeem, users must have a sufficient balance and specify the part ID they wish to redeem.
 Burning: Both the contract owner and users can burn tokens, reducing the total supply.
 Transfer: Users can transfer tokens to other addresses.
 ## Getting Started
-
-### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
 
 ### Executing program
 
